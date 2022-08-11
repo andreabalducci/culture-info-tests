@@ -58,3 +58,15 @@ Test       culture English (Australia) => First day of week is Monday
 dotnet --version 
 6.0.400-preview.22330.6
 ```
+
+## Results
+
+Net 4.8 works as expected
+
+Net 6.0 breaks on Windows 
+
+Net 6.0 works as expected on MacOs
+
+
+
+
