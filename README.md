@@ -5,6 +5,7 @@
 
 ## On Windows
 
+```
 Test run for C:\temp\culture-info-tests\bin\Debug\net48\TimeTest.dll (.NETFramework,Version=v4.8)
 Microsoft (R) Test Execution Command Line Tool Version 17.2.0
 Copyright (c) Microsoft Corporation.  All rights reserved.
@@ -29,3 +30,4 @@ Actual:   Sunday
      at TimeTest.FirstDayOfWeekTest.test_net6() in C:\temp\culture-info-tests\FirstDayOfWeekTest.cs:line 13
 
 Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: < 1 ms - TimeTest.dll (net6.0)
+```
