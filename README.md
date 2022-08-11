@@ -31,3 +31,19 @@ Actual:   Sunday
 
 Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: < 1 ms - TimeTest.dll (net6.0)
 ```
+
+## On MacOs
+
+```
+Test run for /Users/andrea/dev/TimeTest/bin/Debug/net6.0/TimeTest.dll (.NETCoreApp,Version=v6.0)
+Microsoft (R) Test Execution Command Line Tool Version 17.3.0 (arm64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: < 1 ms - /Users/andrea/dev/TimeTest/bin/Debug/net6.0/TimeTest.dll (net6.0)
+
+dotnet --version 
+6.0.400-preview.22330.6
+```
