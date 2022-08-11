@@ -3,7 +3,7 @@
 1. Clone the repo
 2. run ```dotnet test```
 
-## On Windows
+## On Windows 10 21H2
 
 ```
 Test run for C:\temp\culture-info-tests\bin\Debug\net48\TimeTest.dll (.NETFramework,Version=v4.8)
@@ -39,7 +39,7 @@ dotnet --version
 6.0.300-preview.22204.3
 ```
 
-## On MacOs
+## On MacOs Monterey 12.4 (21F79)
 
 ```
 Test run for /Users/andrea/dev/TimeTest/bin/Debug/net6.0/TimeTest.dll (.NETCoreApp,Version=v6.0)
@@ -50,6 +50,10 @@ Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
 
 Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: < 1 ms - /Users/andrea/dev/TimeTest/bin/Debug/net6.0/TimeTest.dll (net6.0)
+
+Current UI culture English (Italy) => First day of week is Monday
+Current    culture English (Italy) => First day of week is Monday
+Test       culture English (Australia) => First day of week is Monday
 
 dotnet --version 
 6.0.400-preview.22330.6
