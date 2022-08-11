@@ -20,16 +20,23 @@ Copyright (c) Microsoft Corporation.  All rights reserved.
 
 Starting test execution, please wait...
 A total of 1 test files matched the specified pattern.
-[xUnit.net 00:00:00.86]     TimeTest.FirstDayOfWeekTest.test_net6 [FAIL]
-  Failed TimeTest.FirstDayOfWeekTest.test_net6 [9 ms]
+[xUnit.net 00:00:00.54]     TimeTest.FirstDayOfWeekTest.test_en_au [FAIL]
+  Failed TimeTest.FirstDayOfWeekTest.test_en_au [13 ms]
   Error Message:
    Assert.Equal() Failure
 Expected: Monday
 Actual:   Sunday
   Stack Trace:
-     at TimeTest.FirstDayOfWeekTest.test_net6() in C:\temp\culture-info-tests\FirstDayOfWeekTest.cs:line 13
+     at TimeTest.FirstDayOfWeekTest.test_en_au() in C:\temp\culture-info-tests\FirstDayOfWeekTest.cs:line 26
+  Standard Output Messages:
+ Current UI culture English (United States) => First day of week is Sunday
+ Current    culture Italian (Italy) => First day of week is Monday
+ Test       culture English (Australia) => First day of week is Sunday
 
-Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: < 1 ms - TimeTest.dll (net6.0)
+
+
+dotnet --version
+6.0.300-preview.22204.3
 ```
 
 ## On MacOs
